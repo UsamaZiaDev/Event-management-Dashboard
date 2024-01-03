@@ -1,0 +1,38 @@
+.event-cards-wrapper{
+    background: #fff;
+    height: 220px;
+    border-radius: 15px;
+    border-right:solid 5px var(--secondary);
+    box-shadow:1px 2px 5px rgba(0, 0, 0, 0.193);
+    margin: auto;
+    margin-bottom: 25px;
+    width: 1000px;
+}
+.event-cards-wrapper .thumbnail{
+    width: 350px;
+    height: 220px;
+}
+.event-cards-wrapper .thumbnail img{
+    object-fit: cover;
+}
+.join-social-media svg{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 6px;
+    color: #fff;
+    padding:6px;
+    background: #000;
+}
+.join-social-media svg.youtube{
+    background: #FF0000;
+}
+.join-social-media svg.zoom{
+    background: #0851D3;
+}
+
+.ievent-action-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+}

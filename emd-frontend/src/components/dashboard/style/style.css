@@ -1,0 +1,14 @@
+.nav-item > .active{
+    color: black !important;
+    font-weight: bold;
+}
+.nav-item  .active{
+    background: var(--secondary) !important;
+    margin-bottom: 3px;
+    margin-top: 5px;
+}
+.nav-item:hover,
+.nav-item  .active span{
+    background: var(--secondary) !important;
+    color: var(--pure) !important;
+}
